@@ -3,7 +3,7 @@ from matplotlib import style
 
 style.use("ggplot")
 
-model_name = MODEL_NAME
+model_name = "model-1582833658"
 
 def create_acc_loss_graph(model_name):
     contents = open("model.log", "r").read().split('\n') # Open our model file for reading and split every line
